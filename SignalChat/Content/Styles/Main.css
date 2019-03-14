@@ -1,19 +1,45 @@
-﻿.writer-footer {
+﻿#writer-footer {
 	position: fixed;
-	bottom: 5px;
+	bottom: 0;
 	border: 1px solid black;
 	padding: 5px;
-	display: inline;
 	box-sizing: border-box;
 	width: 100%;
 	left: 0;
+	background-color: white;
 }
 
-.writer-footer > .send-button {
+#writer-footer > .send-button {
 	float: right;
 	width: 15%;
 }
 
-.writer-footer > .send-input {
+#writer-footer > .send-input {
 	width: 83%;
+}
+
+#chat-window {
+	margin-bottom: 50px;
+}
+
+#chat-window > .message {
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+#chat-window > .message > p {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+#chat-window > .message > .message-time {
+	float: right;
+}
+
+#chat-window > .my-message {
+	background-color: #affffa;
+}
+
+#chat-window > .other-message {
+	background-color: #e6e6e6;
 }
